@@ -1,5 +1,5 @@
 # redirect-front
 Website for hwdtech/redirect-front
 
-## Wesite
+## Website
 https://vitkyk.github.io/redirect-front/
