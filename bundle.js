@@ -43551,6 +43551,8 @@
 
 	var _reactBootstrap = __webpack_require__(214);
 
+	var _styles = __webpack_require__(212);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var MainLink = function MainLink(_ref) {
@@ -43570,10 +43572,11 @@
 				} },
 			_react2.default.createElement(
 				'h4',
-				{ onClick: onClick },
-				' ',
-				title,
-				' '
+				{ className: 'bytarget',
+					onClick: onClick
+
+				},
+				title
 			),
 			_react2.default.createElement(
 				'p',
